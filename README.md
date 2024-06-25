@@ -284,21 +284,25 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 5.1.1 常规曲线 P-R curve、P curve、R curve
 (1) P curve
 当判定概率超过置信度阈值时，各个类别识别的准确率。当置信度越大时，类别检测越准确，但是这样就有可能漏掉一些判定概率较低的真实样本。
-如图4.1所示，本次训练模型在置信度达到0.93时，mask和no-mask的预测准度都达到了100%。
+如图5.1所示，本次训练模型在置信度达到0.93时，mask和no-mask的预测准度都达到了100%。
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/01.png)
 
 
 图5.1 YOLOv5 训练下的目标模型的置信度阈值 - 准确率曲线图
 (2) R curve
 当置信度越小的时候，类别检测的越全面（不容易被漏掉，但容易误判）。
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/02.png)
 
 
 图5.2 YOLOv5训练下的目标模型的置信度阈值 – 召回率曲线图
 如图5.2所示，本次训练模型在置信度达到0.98的时候，recall曲线回归到0。
 (3)P-R curve
 如图5.3所示，P-R curve曲线图在recall趋近于1.0时，此时预测准确率则最低。当recall趋近于0时，预测准确率最高为1.0。
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/03.png)
 
 图5.3 YOLOv5训练下的目标模型的精确率和召回率的关系图
 5.1.2Results
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/04.png)
 
 
 图5.4loss functions 曲线图
@@ -310,7 +314,8 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 •mAP_0.5:0.95（mAP@[0.5:0.95]）是 表示在不同IoU阈值（从0.5到0.95，步长0.05）（0.5、0.55、0.6、0.65、0.7、0.75、0.8、0.85、0.9、0.95）上的平均mAP；
 •mAP_0.5是表示阈值大于0.5的平均mAP。
 5.2结果验证
-
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/05.png) ![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/06.png)
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/07.png) ![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/08.png)
 
 
 
