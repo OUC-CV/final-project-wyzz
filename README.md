@@ -134,7 +134,10 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 在网上找的公开数据集，然后进行HDRI图像生成。数据包括常见的80类别，包括各种车辆（如飞机、自行车、船、公共汽车、汽车、摩托车和火车）、家居用品（如瓶子、椅子、餐桌、盆栽、沙发和电视/显示器）以及动物（如鸟、猫、牛、狗、马、羊）和人。数据集是一个被广泛应用于计算机视觉领域的数据集，该数据集包含了大量的日常场景，其中每个场景都包含了丰富的上下文信息，有助于深入理解各种对象的语义。每一张图像都进行了详细的标注，包括边界框、分割掩码等。
 数据集部分图片展示：
-![image]([url](https://github.com/OUC-CV/final-project-wyzz/blob/main/images/train2017/000000000009.jpg))
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/images/train2017/000000000009.jpg)
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/images/train2017/000000000025.jpg)
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/images/train2017/000000000030.jpg)
+![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/images/train2017/000000000034.jpg)
 
 
 第四章部分主体代码
