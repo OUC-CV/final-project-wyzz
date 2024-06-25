@@ -314,8 +314,6 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 •mAP_0.5:0.95（mAP@[0.5:0.95]）是 表示在不同IoU阈值（从0.5到0.95，步长0.05）（0.5、0.55、0.6、0.65、0.7、0.75、0.8、0.85、0.9、0.95）上的平均mAP；
 •mAP_0.5是表示阈值大于0.5的平均mAP。
 5.2结果验证
-![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/05.png) ![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/06.png)
-![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/07.png) ![image](https://github.com/OUC-CV/final-project-wyzz/blob/main/result/08.png)
 
 
 
